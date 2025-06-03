@@ -20,7 +20,8 @@ app = Flask(__name__)
 CORS(app, origins=[
     "http://localhost:3000",  # React dev server
     "http://localhost:8080",  # Vue dev server
-    "https://yourdomain.com", # Your production domain
+    "https://app-magicsuppport-ui-dev-gbg5g3hvcudzgugb.centralindia-01.azurewebsites.net"
+
     # Add more domains as needed
 ])
 
